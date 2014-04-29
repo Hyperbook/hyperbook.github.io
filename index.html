@@ -2,45 +2,23 @@
 <html>
 
   <head>
-    <meta charset='utf-8' />  <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="description" content="Home Hyperbook : HB" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
     <title>Home Hyperbook</title>
-    <script>
-function startTime()
-{
-var today=new Date(); by
-var h=today.getHours();
-var m=today.getMinutes();
-var s=today.getSeconds();
-// add a zero in front of numbers<10
-m=checkTime(m);
-s=checkTime(s);
-document.getElementById('txt').innerHTML=h+":"+m+":"+s;
-t=setTimeout(function(){startTime()},500);
-}
-
-function checkTime(i)
-{
-if (i<10)
-  {
-  i="0" + i;
-  }
-return i;
-}
-</script>
   </head>
 
-  <body onload="startTime()">
+  <body>
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <a id="forkme_banner" href="https://github.com/Hyperbook">View HyperBook on Github(Developers Only )</a>
+          <a id="forkme_banner" href="https://github.com/Hyperbook">View on GitHub</a>
 
-          <h1 id="project_title">Home Hyperbook    </h1>
+          <h1 id="project_title">Home Hyperbook</h1>
           <h2 id="project_tagline">HB</h2>
 
         </header>
@@ -50,17 +28,12 @@ return i;
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h1>
-         <!-- Place this tag in your head or just before your close body tag. -->
-
 <a name="hyperbook" class="anchor" href="#hyperbook"><span class="octicon octicon-link"></span></a>Hyperbook</h1>
 
 <hr><h2>
 <a name="welcome-to-hyperbook" class="anchor" href="#welcome-to-hyperbook"><span class="octicon octicon-link"></span></a>Welcome to HyperBook!</h2>
-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 
-<!-- Place this tag where you want the widget to render. -->
-<div class="g-post" data-href="https://plus.google.com/107221287904114524007/posts/5nM6Akv4QMc"></div>
-<hr><p><a href="Social">Socialize</a> <a href="videos.html">Videos</a> <a href="google+.html">google+</a></p>
+<hr><p><a href="Social">Socialize</a> <a href="google+.html">google+</a></p>
       </section>
     </div>
 
@@ -68,7 +41,6 @@ return i;
     <div id="footer_wrap" class="outer">
       <footer class="inner">
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-        <p><div id="txt"></div></p>
       </footer>
     </div>
 
