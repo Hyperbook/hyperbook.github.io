@@ -3,3 +3,7 @@ gems:
 - jemoji
 - jekyll-redirect-from
 - jekyll-sitemap
+pygments: true
+github: {
+"project_title"      => "HyperBook",
+}
