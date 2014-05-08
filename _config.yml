@@ -2,5 +2,5 @@ gems:
  - jekyll-sitemap
  - jekyll-mentions
  - jemoji
- q- jekyll-redirect-from
+ - jekyll-redirect-from
 
