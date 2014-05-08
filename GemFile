@@ -1,1 +1,2 @@
--jekyll-sitemap
+soure "http://rubygems.org"
+gem "github-pages"
